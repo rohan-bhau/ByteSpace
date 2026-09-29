@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
+import BrandsBar from "@/components/home/BrandsBar";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Navbar />
       <main className="flex-1">
         <Hero />
+        <BrandsBar />
       </main>
     </div>
   );
