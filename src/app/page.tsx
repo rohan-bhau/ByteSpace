@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
 import BrandsBar from "@/components/home/BrandsBar";
+import PopularCourses from "@/components/home/PopularCourses";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <BrandsBar />
+        <PopularCourses />
       </main>
     </div>
   );
