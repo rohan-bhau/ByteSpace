@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
 import BrandsBar from "@/components/home/BrandsBar";
 import PopularCourses from "@/components/home/PopularCourses";
+import Categories from "@/components/home/Categories";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <BrandsBar />
         <PopularCourses />
+        <Categories />
       </main>
     </div>
   );
