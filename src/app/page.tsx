@@ -4,6 +4,7 @@ import BrandsBar from "@/components/home/BrandsBar";
 import PopularCourses from "@/components/home/PopularCourses";
 import Categories from "@/components/home/Categories";
 import WhyByteSpace from "@/components/home/WhyByteSpace";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Categories />
         <WhyByteSpace />
       </main>
+      <Footer />
     </div>
   );
 }
