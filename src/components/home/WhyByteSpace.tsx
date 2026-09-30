@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhyByteSpace() {
   return (
-    <section className="w-full bg-[#FAFAFA] py-20 sm:py-28 relative overflow-hidden">
+    <section className="w-full bg-[#FAFAFA] py-12 sm:py-16 lg:py-20 relative overflow-hidden">
       {/* Background Glows */}
       <div
         className="absolute -top-[340px] sm:-top-[366px] left-[calc(50%-768px)] w-[960px] sm:w-[1000px] h-[960px] sm:h-[1000px] rounded-full pointer-events-none z-0"
@@ -44,7 +44,7 @@ export default function WhyByteSpace() {
 
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 relative z-10">
         {/* Part 1: Students Growth */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-24 sm:mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-12 sm:mb-16 lg:mb-10">
           {/* Left: Text & Stats */}
           <div className="max-w-xl">
             <h2 className="text-3xl sm:text-4xl md:text-[44px] font-semibold text-[#040819] leading-[1.2] tracking-tight">

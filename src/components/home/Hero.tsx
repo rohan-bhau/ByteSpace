@@ -125,39 +125,71 @@ export default function Hero() {
         </div>
 
         {/* Floating Card: UI/UX Design */}
-        <div className="absolute left-[2%] sm:left-[6%] md:left-[12%] lg:left-[calc(50%-316px)] top-[50px] sm:top-[75px] md:top-[95px] lg:top-[127px] w-[115px] sm:w-[160px] md:w-[180px] lg:w-[208px] z-30 transition-transform duration-200 hover:scale-105 cursor-pointer">
-          <Image
-            src="/assets/images/hero-card-ui-ux.png"
-            alt="UI/UX Design"
-            width={208}
-            height={70}
-            className="w-full h-auto drop-shadow-xl"
-            priority
-          />
+        <div className="absolute left-[2%] sm:left-[6%] md:left-[12%] lg:left-[calc(50%-316px)] top-[50px] sm:top-[75px] md:top-[95px] lg:top-[127px] w-[135px] sm:w-[165px] md:w-[190px] lg:w-[214px] bg-white rounded-[12px] sm:rounded-[16px] px-3 sm:px-4 py-2.5 sm:py-3.5 shadow-xl z-30">
+          <div className="flex flex-col gap-0.5 sm:gap-1">
+            <h3 className="text-xs sm:text-sm lg:text-[16px] font-medium text-[#242528] leading-tight">
+              UI/UX Design
+            </h3>
+            <div className="flex items-center gap-1 sm:gap-1.5 text-[9px] sm:text-[11px] lg:text-[12px] text-[#82868E] whitespace-nowrap">
+              <span>200 Courses</span>
+              <span className="text-[8px]">•</span>
+              <span>1000+ Students</span>
+            </div>
+          </div>
         </div>
 
         {/* Floating Card: Learning Progress */}
-        <div className="absolute right-[2%] sm:right-[6%] md:right-[10%] lg:left-[calc(50%+122px)] lg:right-auto top-[60px] sm:top-[85px] md:top-[105px] lg:top-[139px] w-[125px] sm:w-[175px] md:w-[200px] lg:w-[232px] z-30 transition-transform duration-200 hover:scale-105 cursor-pointer">
-          <Image
-            src="/assets/images/hero-card-learning-progress.png"
-            alt="Learning Progress 55%"
-            width={232}
-            height={131}
-            className="w-full h-auto drop-shadow-xl"
-            priority
-          />
+        <div className="absolute right-[2%] sm:right-[6%] md:right-[10%] lg:left-[calc(50%+122px)] lg:right-auto top-[60px] sm:top-[85px] md:top-[105px] lg:top-[139px] w-[140px] sm:w-[175px] md:w-[200px] lg:w-[232px] bg-white rounded-[12px] sm:rounded-[16px] p-2.5 sm:p-3.5 lg:p-4 shadow-xl z-30 flex flex-col justify-between">
+          <div>
+            <span className="text-[10px] sm:text-xs lg:text-[14px] font-medium text-[#242528] block leading-tight">
+              Learning Progress
+            </span>
+            <span className="text-2xl sm:text-3xl lg:text-[48px] font-semibold text-[#242528] font-display block leading-tight mt-1 lg:mt-2">
+              55%
+            </span>
+          </div>
+          <div className="w-full h-1.5 sm:h-2 bg-[#F6F6F6] rounded-full overflow-hidden mt-2 lg:mt-3">
+            <div className="bg-[#D4FB20] h-full w-[56%] rounded-full" />
+          </div>
         </div>
 
         {/* Floating Card: Happy Students */}
-        <div className="absolute left-[2%] sm:left-[5%] md:left-[8%] lg:left-[calc(50%-392px)] top-[170px] sm:top-[220px] md:top-[270px] lg:top-[325px] w-[145px] sm:w-[195px] md:w-[220px] lg:w-[258px] z-30 transition-transform duration-200 hover:scale-105 cursor-pointer">
-          <Image
-            src="/assets/images/hero-card-happy-students.png"
-            alt="Happy Students 4.5 rating"
-            width={258}
-            height={121}
-            className="w-full h-auto drop-shadow-xl"
-            priority
-          />
+        <div className="absolute left-[2%] sm:left-[5%] md:left-[8%] lg:left-[calc(50%-392px)] top-[170px] sm:top-[220px] md:top-[270px] lg:top-[325px] w-[170px] sm:w-[215px] md:w-[235px] lg:w-[260px] bg-white rounded-[12px] sm:rounded-[16px] p-2.5 sm:p-3.5 lg:p-4 shadow-xl z-30 flex flex-col justify-between">
+          <div>
+            <h3 className="text-xs sm:text-sm lg:text-[16px] font-medium text-[#242528] leading-tight">
+              Happy Students
+            </h3>
+            <div className="flex items-center gap-1 sm:gap-1.5 mt-0.5 sm:mt-1">
+              <span className="text-[10px] sm:text-[11px] lg:text-[12px] text-[#82868E]">4.5 (240)</span>
+              <svg className="w-3 sm:w-3.5 lg:w-4 h-3 sm:h-3.5 lg:h-4 fill-[#D4FB20]" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+            </div>
+          </div>
+
+          <div className="flex items-center mt-2 sm:mt-3">
+            {[
+              '/assets/images/student-avatar-1.png',
+              '/assets/images/student-avatar-2.png',
+              '/assets/images/student-avatar-3.png',
+              '/assets/images/student-avatar-4.png',
+              '/assets/images/student-avatar-5.png',
+              '/assets/images/student-avatar-6.png',
+              '/assets/images/testimonial-avatar-sarah.png',
+            ].map((src, i) => (
+              <div
+                key={i}
+                className={`relative w-5 h-5 sm:w-7 sm:h-7 lg:w-[32px] lg:h-[32px] rounded-full overflow-hidden border sm:border-2 border-white ${
+                  i > 0 ? '-ml-1.5 sm:-ml-2' : ''
+                } shrink-0`}
+              >
+                <Image src={src} alt="Student avatar" fill className="object-cover" />
+              </div>
+            ))}
+            <div className="w-5 h-5 sm:w-7 sm:h-7 lg:w-[32px] lg:h-[32px] rounded-full bg-[#D4FB20] text-[#242528] font-bold text-[7px] sm:text-[9px] lg:text-[11px] flex items-center justify-center border sm:border-2 border-white -ml-1.5 sm:-ml-2 shrink-0">
+              2K+
+            </div>
+          </div>
         </div>
       </div>
     </section>
