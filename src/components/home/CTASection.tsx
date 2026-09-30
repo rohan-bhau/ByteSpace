@@ -45,7 +45,7 @@ export default function CTASection() {
 
         <div className="mt-8">
           <Link
-            href="/register"
+            href="/signup"
             className="inline-block bg-[#D4FB20] text-[#040819] font-semibold text-sm px-8 py-3 rounded-full hover:brightness-105 active:scale-95 transition-all shadow-md"
           >
             Join as Creator

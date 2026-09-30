@@ -60,7 +60,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/register"
+              href="/signup"
               className="text-white hover:text-[#d4fa20] font-medium text-[16px] transition-colors duration-200"
             >
               Join Us
@@ -126,7 +126,7 @@ export default function Navbar() {
               Sign In
             </Link>
             <Link
-              href="/register"
+              href="/signup"
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-center text-white py-2.5 font-medium text-sm rounded-lg hover:bg-white/5"
             >

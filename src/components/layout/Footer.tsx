@@ -91,7 +91,7 @@ export default function Footer() {
             {/* Col 3 */}
             <div className="space-y-3.5 col-span-2 sm:col-span-1">
               {[
-                { name: "Become a Creator", href: "/register" },
+                { name: "Become a Creator", href: "/signup" },
                 { name: "Affiliate Program", href: "#" },
                 { name: "Contact", href: "#" },
                 { name: "Help", href: "#" },
