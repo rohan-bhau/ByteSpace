@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import BrandsBar from "@/components/home/BrandsBar";
 import PopularCourses from "@/components/home/PopularCourses";
 import Categories from "@/components/home/Categories";
+import WhyByteSpace from "@/components/home/WhyByteSpace";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <BrandsBar />
         <PopularCourses />
         <Categories />
+        <WhyByteSpace />
       </main>
     </div>
   );
