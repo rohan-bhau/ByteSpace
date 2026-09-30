@@ -7,20 +7,20 @@ export default function CTASection() {
     <section className="relative w-full bg-[#003BE2] py-20 sm:py-24 overflow-hidden min-h-[488px] flex items-center justify-center">
       {/* Blueprint Grid Background */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.12]"
+        className="absolute inset-0 pointer-events-none"
         style={{
           backgroundImage: `
-            linear-gradient(to right, rgba(255, 255, 255, 0.35) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 1px, transparent 1px)
+            linear-gradient(to right, rgba(255, 255, 255, 0.14) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.14) 1px, transparent 1px)
           `,
-          backgroundSize: "64px 64px",
+          backgroundSize: "80px 80px",
         }}
         aria-hidden="true"
       />
 
       {/* 3D Particles */}
       <div
-        className="absolute left-[calc(50%-838px)] top-[-162px] w-[1714px] h-[803px] pointer-events-none select-none z-0 scale-[0.55] sm:scale-[0.75] md:scale-[0.85] lg:scale-100 origin-center"
+        className="absolute left-[calc(50%-838px)] top-[-162px] w-[1714px] h-[803px] pointer-events-none select-none z-0 scale-[0.4] sm:scale-[0.6] md:scale-[0.8] lg:scale-100 origin-center"
         aria-hidden="true"
       >
         <Image

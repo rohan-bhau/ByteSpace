@@ -6,23 +6,39 @@ export default function WhyByteSpace() {
     <section className="w-full bg-[#FAFAFA] py-20 sm:py-28 relative overflow-hidden">
       {/* Background Glows */}
       <div
-        className="absolute -top-16 left-[15%] sm:left-[22%] w-[520px] h-[520px] bg-[#D4FB20]/30 rounded-full blur-[130px] pointer-events-none z-0"
+        className="absolute -top-[340px] sm:-top-[366px] left-[calc(50%-768px)] w-[960px] sm:w-[1000px] h-[960px] sm:h-[1000px] rounded-full pointer-events-none z-0"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, rgba(212, 251, 32, 0.40) 0%, rgba(212, 251, 32, 0.092) 53%, rgba(212, 251, 32, 0.024) 75%, transparent 100%)",
+          filter: "blur(40px)",
+        }}
         aria-hidden="true"
       />
       <div
-        className="absolute -top-10 -right-24 sm:-right-20 w-[500px] h-[500px] bg-[#003BE2]/15 rounded-full blur-[140px] pointer-events-none z-0"
+        className="absolute top-[48%] -left-[320px] w-[850px] h-[850px] rounded-full pointer-events-none z-0"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, rgba(0, 59, 226, 0.16) 0%, rgba(0, 59, 226, 0.037) 53%, rgba(0, 59, 226, 0.01) 75%, transparent 100%)",
+          filter: "blur(40px)",
+        }}
         aria-hidden="true"
       />
       <div
-        className="absolute top-[42%] -left-32 sm:-left-28 w-[480px] h-[480px] bg-[#003BE2]/15 rounded-full blur-[140px] pointer-events-none z-0"
+        className="absolute -bottom-28 -left-36 sm:-left-32 w-[672px] h-[672px] rounded-full pointer-events-none z-0"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, rgba(212, 251, 32, 0.60) 0%, rgba(212, 251, 32, 0.138) 53%, rgba(212, 251, 32, 0.036) 75%, transparent 100%)",
+          filter: "blur(40px)",
+        }}
         aria-hidden="true"
       />
       <div
-        className="absolute -bottom-28 -left-36 sm:-left-32 w-[672px] h-[672px] bg-[#D4FB20]/35 rounded-full blur-[140px] pointer-events-none z-0"
-        aria-hidden="true"
-      />
-      <div
-        className="absolute -bottom-20 -right-28 sm:-right-24 w-[520px] h-[520px] bg-[#003BE2]/20 rounded-full blur-[140px] pointer-events-none z-0"
+        className="absolute -bottom-20 -right-28 sm:-right-24 w-[520px] h-[520px] rounded-full pointer-events-none z-0"
+        style={{
+          background:
+            "radial-gradient(circle at 50% 50%, rgba(0, 59, 226, 0.24) 0%, rgba(0, 59, 226, 0.055) 53%, rgba(0, 59, 226, 0.014) 75%, transparent 100%)",
+          filter: "blur(40px)",
+        }}
         aria-hidden="true"
       />
 

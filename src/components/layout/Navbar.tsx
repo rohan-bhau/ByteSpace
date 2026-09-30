@@ -17,9 +17,9 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full bg-[#003ce0] text-white sticky top-0 z-50 border-b border-white/10 relative">
+    <header className="w-full bg-[#003BE2] text-white sticky top-0 z-50 border-b border-white/10 relative">
       {/* Background grid */}
-      <GridBackground size={80} opacity={0.08} />
+      <GridBackground size={80} opacity={0.12} />
 
       <Container className="relative z-10">
         <div className="flex items-center justify-between h-20">
